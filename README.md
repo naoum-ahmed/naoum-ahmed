@@ -1,25 +1,6 @@
 ### Hi there 👋
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-<canvas id='canvas' style='z-index: -1;position: absolute;top: 0;left: 0;width: 100%;height: 100%;'></canvas>
-    <script>window.onload = function () {
-  Particles.init({
-    selector: 'Canvas'
-  });
-};
-
-var particles = Particles.init({
-  selector: 'Canvas',
-  color: ['#F6358A', '#000000', '#00ffff'],
-  connectParticles: false,
-  responsive: [
-    {
-      breakpoint: 1,
-      options: {
-        color: '#f535aa',
-        maxParticles: 43,
-        connectParticles: false
-      }
-    }
-  ]
-});
-</script>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=prince00-7&theme=radical&hide_border=true)
+![](https://github-profile-trophy.vercel.app/?username=prince00-7&margin-w=15&margin-h=15-ma&theme=radical&hide_border=true)
+![](https://github-readme-stats.vercel.app/api?username=prince00-7&theme=radical&show_icons=true&count_private=true&hide_border=true)
+![](https://activity-graph.herokuapp.com/graph?username=prince00-7&theme=react-dark&hide_border=true)
+![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=prince00-7&theme=cobalt&hide_border=true&fire=FF0000&dates=FFFFFF&background=000000&stroke=FF0000&currStreakNum=FF0000&ring=FFFFFF&sideNums=FF0000&currStreakLabel=FF0000&sideLabels=858585)
