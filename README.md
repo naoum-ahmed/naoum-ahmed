@@ -1,16 +1,25 @@
 ### Hi there 👋
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+<canvas id='canvas' style='z-index: -1;position: absolute;top: 0;left: 0;width: 100%;height: 100%;'></canvas>
+    <script>window.onload = function () {
+  Particles.init({
+    selector: 'Canvas'
+  });
+};
 
-<!--
-**prince00-7/prince00-7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+var particles = Particles.init({
+  selector: 'Canvas',
+  color: ['#F6358A', '#000000', '#00ffff'],
+  connectParticles: false,
+  responsive: [
+    {
+      breakpoint: 1,
+      options: {
+        color: '#f535aa',
+        maxParticles: 43,
+        connectParticles: false
+      }
+    }
+  ]
+});
+</script>
